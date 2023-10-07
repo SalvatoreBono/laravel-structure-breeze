@@ -1,4 +1,4 @@
-@extends('layouts.public')
+@extends('layouts.app')
 @section('title', 'Create')
 @section('content')
     {{-- @include('names.forms.upsert',= inserimento del componente upsert --}}
