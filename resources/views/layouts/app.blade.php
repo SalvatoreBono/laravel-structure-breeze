@@ -7,19 +7,18 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+    <title>@yield('title')</title>
     <title>{{ config('app.name', 'Laravel') }}</title>
 
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
     <!-- Usando Vite -->
     @vite(['resources/js/app.js'])
 </head>
 
-<body>
+<body class="">
     <div id="app">
 
 
